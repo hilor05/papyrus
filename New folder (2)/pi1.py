@@ -1,3 +1,6 @@
+#to run
+#$env:FLASK_APP = "run.py"
+#flask run
 from flask import Flask,request,abort,jsonify,render_template,session,redirect,url_for,escape
 from flask_pymongo import PyMongo
 import os
